@@ -690,6 +690,7 @@ smd(
  );
  smd({
    pattern: "instagram2",
+    alias: ["insta", "ig"],
    desc: "Download media from Instagram.",
    category: "downloader",
    filename: __filename,
@@ -946,7 +947,7 @@ smd(
  smd(
    {
      pattern: "facebook2",
-     alias: ["fbhd"],
+     alias: ["fbhd","fb"],
      desc: "Downloads Facebook videos in HD.",
      category: "downloader",
      filename: __filename,
@@ -1138,7 +1139,7 @@ smd(
  smd(
    {
      pattern: "gitclone",
-     desc: "Downloads apks  .",
+   desc: "Downloads apks  .",
      category: "downloader",
      filename: __filename,
      use: "<add sticker url.>",

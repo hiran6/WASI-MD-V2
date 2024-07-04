@@ -31,8 +31,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOh
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923135673658,923192173398";
-global.owner = process.env.OWNER_NUMBER || "923135673658";
+global.sudo = process.env.SUDO || "923192173398";
+global.owner = process.env.OWNER_NUMBER || "923192173398";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -41,7 +41,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -49,9 +49,10 @@ global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.autoreaction = process.env.autoreaction || "true";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://wasimdscanner-68feefafb737.herokuapp.com/";
+global.scan = "https://pair-qr-wasi-md.onrender.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -77,6 +78,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
   LANG: (process.env.THEME || "WASI").toUpperCase(),
 };
 global.rank = "updated";
