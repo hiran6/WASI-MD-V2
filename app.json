@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝐖𝐀𝐒𝐈-𝐓𝐄𝐂𝐇",
+      "value": "Rahul_JI",
       "required": true
     },
     "CAPTION" : {
@@ -53,7 +53,7 @@
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "WARN_COUNT": {
       "description": " Warn count for users to kick/block when warn limit exceed!",
@@ -106,7 +106,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": ""
+      "value": "919356750285"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
